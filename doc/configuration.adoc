@@ -331,13 +331,13 @@ tag::app[]
 
 |app.enable-review-prompt
 |bool
-|`false`
+|`true`
 |Enable/disable review prompt.
 |advanced `candidate`
 
 |app.recommend-to-friend-enabled
 |bool
-|`false`
+|`true`
 |Enables/disables the recommend to a friend entry in the settings.
 |advanced `candidate`
 
@@ -1211,8 +1211,11 @@ tag::extensions[]
 ! `com.owncloud.action.uploadphotos`
 ! Extension with the identifier com.owncloud.action.uploadphotos.
 
-! `com.owncloud.branding`
-! Extension with the identifier com.owncloud.branding.
+! `com.owncloud.dark`
+! Extension with the identifier com.owncloud.dark.
+
+! `com.owncloud.light`
+! Extension with the identifier com.owncloud.light.
 
 ! `five-seconds-of-404`
 ! Extension with the identifier five-seconds-of-404.
