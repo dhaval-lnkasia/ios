@@ -334,7 +334,7 @@ build_ipa_in_house(
   ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-share-extension",
   ENTERPRISE_ACTION_EXTENSION_ID: "com.kiteworks.ios-app.kiteworks-action-extension",
   ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-action-extension",
-  ENTERPRISE_APP_FW_ID: "com.kiteworks.kiteworksapp",
+  ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp",
   ENTERPRISE_TEAM: "4AP2STM4H5",
   ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH (4AP2STM4H5)",
   APP_GROUP_IDENTIFIERS: "group.com.kiteworks.ios-app",
