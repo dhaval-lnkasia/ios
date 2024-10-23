@@ -3,113 +3,115 @@
   "strings": {
     "CFBundleDisplayName": {
       "comment": "Bundle display name",
+      "extractionState": "extracted_with_value",
       "localizations": {
         "cs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Speichern in Kiteworks"
+            "value": "Speichern in ownCloud"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "en_GB": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "mk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "nb_NO": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "nn_NO": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "pt_BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "pt_PT": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Сохранить в Kiteworks"
+            "value": "Сохранить в ownCloud"
           }
         },
         "sq": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ruajeni në Kiteworks"
+            "value": "Ruajeni në ownCloud"
           }
         },
         "th_TH": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Save to Kiteworks"
+            "value": "Save to ownCloud"
           }
         }
       }
     },
     "CFBundleName": {
       "comment": "Bundle name",
+      "extractionState": "extracted_with_value",
       "localizations": {
         "cs": {
           "stringUnit": {
@@ -217,6 +219,7 @@
     },
     "NSHumanReadableCopyright": {
       "comment": "Copyright (human-readable)",
+      "extractionState": "extracted_with_value",
       "localizations": {
         "cs": {
           "stringUnit": {
