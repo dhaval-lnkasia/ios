@@ -414,7 +414,7 @@
     "categoryTag" : "app",
     "classIdentifier" : "app",
     "className" : "ownCloudAppShared.VendorServices",
-    "defaultValue" : true,
+    "defaultValue" : false,
     "description" : "Enable/disable review prompt.",
     "flatIdentifier" : "app.enable-review-prompt",
     "key" : "enable-review-prompt",
@@ -456,7 +456,7 @@
     "categoryTag" : "app",
     "classIdentifier" : "app",
     "className" : "ownCloudAppShared.VendorServices",
-    "defaultValue" : true,
+    "defaultValue" : false,
     "description" : "Enables/disables the recommend to a friend entry in the settings.",
     "flatIdentifier" : "app.recommend-to-friend-enabled",
     "key" : "recommend-to-friend-enabled",
@@ -1926,12 +1926,8 @@
         "value" : "com.owncloud.action.uploadphotos"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.dark.",
-        "value" : "com.owncloud.dark"
-      },
-      {
-        "description" : "Extension with the identifier com.owncloud.light.",
-        "value" : "com.owncloud.light"
+        "description" : "Extension with the identifier com.owncloud.branding.",
+        "value" : "com.owncloud.branding"
       },
       {
         "description" : "Extension with the identifier five-seconds-of-404.",
