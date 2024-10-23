@@ -322,28 +322,28 @@ end
 
 lane :owncloud_kiteworks_build do
 build_ipa_in_house(
-  ENTERPRISE_APP_ID: "com.owncloud.ios-app",
-  ENTERPRISE_APP_PROFILE: "match AppStore com.owncloud.ios-app",
-  ENTERPRISE_FP_ID: "com.owncloud.ios-app.ownCloud-File-Provider",
-  ENTERPRISE_FP_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-File-Provider",
-  ENTERPRISE_FP_UI_ID: "com.owncloud.ios-app.ownCloud-File-ProviderUI",
-  ENTERPRISE_FP_UI_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-File-ProviderUI",
-  ENTERPRISE_INTENT_ID: "com.owncloud.ios-app.ownCloud-Intents",
-  ENTERPRISE_INTENT_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Intents",
-  ENTERPRISE_SHARE_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Share-Extension",
-  ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Share-Extension",
-  ENTERPRISE_ACTION_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Action-Extension",
-  ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Action-Extension",
-  ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp",
+  ENTERPRISE_APP_ID: "com.kiteworks.ios-app",
+  ENTERPRISE_APP_PROFILE: "match AppStore com.kiteworks.ios-app",
+  ENTERPRISE_FP_ID: "com.kiteworks.ios-app.kiteworks-file-provider",
+  ENTERPRISE_FP_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-file-provider",
+  ENTERPRISE_FP_UI_ID: "com.kiteworks.ios-app.kiteworks-file-provider-ui",
+  ENTERPRISE_FP_UI_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-file-provider-ui",
+  ENTERPRISE_INTENT_ID: "com.kiteworks.ios-app.kiteworks-intents",
+  ENTERPRISE_INTENT_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-intents",
+  ENTERPRISE_SHARE_EXTENSION_ID: "com.kiteworks.ios-app.kiteworks-share-extension",
+  ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-share-extension",
+  ENTERPRISE_ACTION_EXTENSION_ID: "com.kiteworks.ios-app.kiteworks-action-extension",
+  ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore com.kiteworks.ios-app.kiteworks-action-extension",
+  ENTERPRISE_APP_FW_ID: "com.kiteworks.kiteworksapp",
   ENTERPRISE_TEAM: "4AP2STM4H5",
   ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH (4AP2STM4H5)",
-  APP_GROUP_IDENTIFIERS: "group.com.owncloud.ios-app",
+  APP_GROUP_IDENTIFIERS: "group.com.kiteworks.ios-app",
   EXPORT_METHOD: "app-store",
   CONFIGURATION: "Release",
   BETA_APP_ICON: false,
   APP_NAME: "Kiteworks",
   URL_SCHEME: "kiteworks-app",
-  IPA_NAME: "ownCloud-kiteworks"
+  IPA_NAME: "kiteworks"
 )
 end
 
