@@ -123,9 +123,9 @@ platform :ios do
           skip_screenshots = true
         end
         
-                if options[:create_release_notes]
-                  create_release_notes = options[:create_release_notes]
-                end
+        if options[:create_release_notes]
+          create_release_notes = options[:create_release_notes]
+        end
 
         deliver = false
         if options[:deliver]
@@ -138,9 +138,9 @@ platform :ios do
         end
         
         build_kiteworks_app = false
-                if options[:build_kiteworks_app]
-                  build_kiteworks_app = options[:build_kiteworks_app]
-                end
+        if options[:build_kiteworks_app]
+          build_kiteworks_app = options[:build_kiteworks_app]
+        end
 
         build_emm_app = false
         if options[:build_emm_app]
@@ -220,7 +220,7 @@ platform :ios do
           end
           end
           
-          if build_kiteworks_app
+      if build_kiteworks_app
           puts("Prepare Metadata…")
           # Prepare Metadata
           prepare_metadata(
@@ -233,6 +233,7 @@ platform :ios do
           puts("Build Kiteworks iOS App…")
           # Moving all EMM resources to the correct place
           sh "cp -R ../ownCloud/Resources/Theming/com.owncloud.ios-app.kiteworks/*.png ../ownCloud/Resources/Theming/branding-assets/"
+          sh "cp ../ownCloud/Resources/Theming/com.owncloud.ios-app.kiteworks/Branding.plist ../ownCloud/Resources/Theming/"
           
           # Build App
           owncloud_kiteworks_build()
@@ -253,7 +254,7 @@ platform :ios do
             ipa: "ownCloud-kiteworks.ipa"
           )
           end
-          end
+      end
 
       if build_owncloud_online_app
           puts("Prepare Metadata…")
