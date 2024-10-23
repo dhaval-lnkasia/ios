@@ -343,7 +343,9 @@ build_ipa_in_house(
   BETA_APP_ICON: false,
   APP_NAME: "Kiteworks",
   URL_SCHEME: "kiteworks-app",
-  IPA_NAME: "kiteworks"
+  IPA_NAME: "kiteworks",
+  OAUTH_CLIENT_ID: ENV['KITEWORKS_OAUTH_CLIENT_ID'],
+  OAUTH_CLIENT_SECRET: ENV['KITEWORKS_OAUTH_CLIENT_SECRET']
 )
 end
 
@@ -598,7 +600,12 @@ end
       set_info_plist_value(path: themePath, key: "GitHash", value: commit)
       set_info_plist_value(path: themePath, key: "SDKGitHash", value: sdkcommit)
       set_info_plist_value(path: themePath, key: "GitBranch", value: gitbranch)
-      set_info_plist_value(path: themePath, key: "SDKGitBranch", value: sdkgitbranch)
+      if values[:OAUTH_CLIENT_ID]
+        set_info_plist_value(path: themePath, key: "authentication-oauth2.oa2-client-id", value: values[:OAUTH_CLIENT_ID])
+      end
+      if values[:OAUTH_CLIENT_SECRET]
+        set_info_plist_value(path: themePath, key: "authentication-oauth2.oa2-client-secret", value: values[:OAUTH_CLIENT_SECRET])
+      end
     end
 
     puts "App Name: " + appName

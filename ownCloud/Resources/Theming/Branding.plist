@@ -2,26 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>GitBranch</key>
-	<string>feature/oauth2-token-post-client
-</string>
-	<key>GitHash</key>
-	<string>426c7dbe
-</string>
-	<key>SDKGitBranch</key>
-	<string>HEAD
-</string>
-	<key>SDKGitHash</key>
-	<string>a50cf0e9
-</string>
 	<key>authentication-oauth2.oa2-client-id</key>
-	<string>3814d6b6-f37b-5ec2-8bd4-83174b1a4f8e</string>
+	<string></string>
 	<key>authentication-oauth2.oa2-client-secret</key>
-	<string>nzpni6lYli</string>
+	<string></string>
 	<key>authentication-oauth2.oidc-redirect-uri</key>
 	<string>oc://ios.owncloud.com/</string>
 	<key>authentication-oauth2.oidc-scope</key>
-	<string/>
+	<string></string>
 	<key>authentication-oauth2.post-client-id-and-secret</key>
 	<true/>
 	<key>authentication.skip-www-authenticate-checks</key>
@@ -39,9 +27,9 @@
 	<key>branding.profile-url</key>
 	<string>https://mobile.kiteworks.com/</string>
 	<key>branding.send-feedback-address</key>
-	<string/>
+	<string></string>
 	<key>branding.send-feedback-url</key>
-	<string/>
+	<string></string>
 	<key>branding.theme-colors</key>
 	<dict>
 		<key>setup-status-bar-style</key>
@@ -61,7 +49,7 @@
 	<key>branding.url-privacy</key>
 	<string>https://www.accellion.com/privacy-policy/</string>
 	<key>branding.url-terms-of-use</key>
-	<string/>
+	<string></string>
 	<key>connection.drives</key>
 	<string>kwdav/graph/v1.0/drives</string>
 	<key>connection.endpoint-capabilities</key>
