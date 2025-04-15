@@ -64,10 +64,3 @@ Easy starting points are also reviewing [pull requests](https://github.com/owncl
 - [Download](https://apps.apple.com/app/id1359583808) our iOS App
 - Add account 
 
-### Demo credentials
-
-| Server URL | demo.owncloud.com |
-| ---------- | ----------------- |
-| User       | demo              |
-| Password   | demo              |
-
