@@ -37,7 +37,7 @@ jobs:
                      -exportPath $PWD/build
 
       - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ownCloud.ipa
           path: ./build/ownCloud.ipa
