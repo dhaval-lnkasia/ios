@@ -1,4 +1,4 @@
-name: Build Xcode project
+name: Build and Export IPA
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build Xcode project
+    name: Build Xcode project and export IPA
     runs-on: macos-15
 
     steps:
@@ -16,7 +16,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true
-      - name: mxcl/Xcodebuild
+
+      - name: Build Xcode Project
         uses: mxcl/xcodebuild@v3.4.0
         with:
           scheme: ownCloud
@@ -24,3 +25,19 @@ jobs:
           platform: iOS
           platform-version: 18.2
           xcode: 16.2
+
+      - name: Archive Project
+        run: |
+          xcodebuild -scheme ownCloud -sdk iphoneos -configuration Release archive -archivePath $PWD/build/ownCloud.xcarchive
+
+      - name: Export IPA
+        run: |
+          xcodebuild -exportArchive -archivePath $PWD/build/ownCloud.xcarchive \
+                     -exportOptionsPlist ExportOptions.plist \
+                     -exportPath $PWD/build
+
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: ownCloud.ipa
+          path: ./build/ownCloud.ipa
